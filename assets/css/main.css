@@ -2839,6 +2839,8 @@ input[type="button"]:disabled,
 	-o-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	background-color: #ffffff;
+	
 }
 
 #main > #navbar > ul {
@@ -2847,14 +2849,21 @@ input[type="button"]:disabled,
 
 #main > section {
 	border-top: solid 2px #dbdbdb;
-	margin: 4em 0 0 0;
-	padding: 4em 0 0 0;
+	margin: 2em 0 0 0;
+	padding: 2em 0 0 0;
 }
 
 #main > section:first-child {
 	border-top: 0;
 	margin-top: 0;
 	padding-top: 0;
+}
+
+/* About section: remove top line and reduce spacing */
+#main > #one {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 1em;
 }
 
 #placeholder2,
@@ -3345,8 +3354,8 @@ body.is-touch .poptrox-popup .closer {
 	}
 
 	#main > section {
-		margin: 2.25em 0 0 0;
-		padding: 2.25em 0 0 0;
+		margin: 1.5em 0 0 0;
+		padding: 1.5em 0 0 0;
 	}
 
 	/* Poptrox */
